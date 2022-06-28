@@ -23,7 +23,7 @@ Sample Output 2:
 
 package main
 
-import "fmt"c
+import "fmt"
 
 func main() {
 	var a, b float32

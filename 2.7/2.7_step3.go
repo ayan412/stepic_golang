@@ -28,6 +28,8 @@ package main
 
 import (
 	"fmt"
+	"strings"
+
 	//"strings"
 )
 
@@ -43,4 +45,18 @@ func main() {
 		}
 	}
 
+}
+
+// решение №2
+package main
+
+import (
+"fmt"
+"strings"
+)
+
+func main() {
+	var input string
+	fmt.Scan(&input)
+	fmt.Print(strings.Trim(strings.ReplaceAll(input, "", "*"), "*"))
 }
